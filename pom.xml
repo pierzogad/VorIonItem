@@ -4,7 +4,7 @@
 
     <groupId>im.wilk.vor</groupId>
     <artifactId>VorIonItem</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <build>
         <plugins>
@@ -61,7 +61,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <version>3.0.1</version>
+                <version>3.2.1</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
@@ -134,7 +134,7 @@
         <connection>scm:git:git://github.com/pierzogad/VorIonItem.git</connection>
         <developerConnection>scm:git:git@github.com:pierzogad/VorIonItem.git</developerConnection>
         <url>https://github.com/pierzogad/VorIonItem</url>
-        <tag>VorIonItem-1.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
