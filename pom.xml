@@ -4,7 +4,7 @@
 
     <groupId>im.wilk.vor</groupId>
     <artifactId>VorIonItem</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
 
     <build>
         <plugins>
@@ -134,7 +134,7 @@
         <connection>scm:git:git://github.com/pierzogad/VorIonItem.git</connection>
         <developerConnection>scm:git:git@github.com:pierzogad/VorIonItem.git</developerConnection>
         <url>https://github.com/pierzogad/VorIonItem</url>
-        <tag>HEAD</tag>
+        <tag>VorIonItem-1.2</tag>
     </scm>
 
     <dependencies>
