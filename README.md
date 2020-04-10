@@ -69,9 +69,9 @@ hundreds of nodes, and we access only few of them only few VorIonItem instances 
 created - all data is sourced from ion structure.
 
 
-(*) System leniency can be set to:
- * allow any data reads/writes or 
- * enforce data type validation - you cannot change type of data or access **existing** data as other type (e.g. treat list as struct).
+(*) System leniency can be set by lenientStructure flag in VorIonFactoryBuilder
+ * lenientStructure == true => allow any data reads/writes  
+ * lenientStructure == false => enforce data type validation - you cannot change type of data or access **existing** data as other type (e.g. treat list as struct).
  
  ##  VorIonFactory 
  
